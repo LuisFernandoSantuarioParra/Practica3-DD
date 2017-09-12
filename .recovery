@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Practica3" device="LCMXO2-7000HE-4TG144C" default_implementation="FlipFlops">
+    <External_ASCs>
+        <ASC type="L-ASC10-1SG48I" num="6"/>
+    </External_ASCs>
+    <Options/>
+    <Implementation title="FlipFlops" dir="FlipFlops" description="FlipFlops" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="FlipsPorts"/>
+        <Source name="FlipFlops.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="FlipsPorts"/>
+        </Source>
+        <Source name="Practica3.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Practica31.sty"/>
+</BaliProject>
