@@ -6,16 +6,26 @@
 -->
 </STYLE>
 </HEAD>
-<PRE><A name="pn170911220955"></A><B><U><big>pn170911220955</big></U></B>
-#Start recording tcl command: 9/11/2017 18:59:06
-#Project Location: C:/Users/Shado/Documents/DisenioDigital/Practica3; Project name: Practica3
-prj_project new -name "Practica3" -impl "FlipFlops" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify" -asc L-ASC10-1SG48I -asc_num 6
+<PRE><A name="pn170916195153"></A><B><U><big>pn170916195153</big></U></B>
+#Start recording tcl command: 9/16/2017 16:27:05
+#Project Location: C:/Users/Shado/Documents/DisenioDigital/Practica3-DD; Project name: Practica3
+prj_project open "C:/Users/Shado/Documents/DisenioDigital/Practica3-DD/Practica3.ldf"
+prj_run Export -impl Practica3 -task Jedecgen
+prj_run Export -impl Practica3 -task Jedecgen
+prj_run Synthesis -impl Practica3
+prj_run Export -impl Practica3 -task Jedecgen
+prj_run Export -impl Practica3 -task Jedecgen
+prj_run Export -impl Practica3 -task Jedecgen
+prj_run Export -impl Practica3 -task Jedecgen
+prj_run Export -impl Practica3 -task Jedecgen
+prj_run Export -impl Practica3 -task Jedecgen
+prj_run Export -impl Practica3 -task Jedecgen
+prj_run Export -impl Practica3 -task Jedecgen
+prj_run Synthesis -impl Practica3
+prj_run Synthesis -impl Practica3
 prj_project save
-prj_src add "C:/Users/Shado/Documents/DisenioDigital/Practica3/FlipFlops.vhd"
-prj_run Synthesis -impl FlipFlops
-prj_run Synthesis -impl FlipFlops
-prj_run Export -impl FlipFlops -task Jedecgen
-#Stop recording: 9/11/2017 22:09:55
+prj_project close
+#Stop recording: 9/16/2017 19:51:53
 
 
 
